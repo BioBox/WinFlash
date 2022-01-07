@@ -123,6 +123,7 @@ namespace WinFlash
 				return;
 			}
 			this.drawref = this.currentCard.content.front;
+			this.viewPort.Invalidate();
 			this.continueButton.Click += this.flip;
 		}
 
